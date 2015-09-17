@@ -1,0 +1,103 @@
+/*Custom css*/
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+.top-bar-section ul li > a,
+.accordion .accordion-navigation > a {
+	font-family: 'Montserrat', sans-serif;
+}
+
+p, 
+a, 
+.accordion .accordion-navigation > .content.active,
+li,
+footer,
+label {
+	font-family: 'Hind', sans-serif;
+	font-style: normal;
+}
+
+/*Navbar css*/
+.top-bar-section ul li > a {
+	font-size: 0.9rem;
+}
+
+.top-bar .name h1 {
+	font-size: 1.3rem;
+}
+
+.welcome-section {
+	padding-top: 100px;
+	padding-bottom: 50px;
+	text-align: center;
+	background-color: #1C75B8;
+	color: #fff;
+}
+
+.welcome-section h1  {
+	color: #fff;
+	font-weight: bold;
+}
+
+.welcome-section h3, .welcome-section h4 {
+	color: #fff;
+}
+
+.app-section {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.about-section {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.partnership-section {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/*Tab styles*/
+@media only screen and (min-width: 40.0625em) {
+	.tabs.vertical {
+		max-width: 30%;
+		width: 30%;
+	}
+}
+
+.tabs .tab-title > a {
+	background-color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	color: #1C75B8;
+}
+
+.tabs .tab-title.active a {
+	color: #009044;
+}
+
+.content-image {
+	text-align: center;
+	width: 50%;
+}
+
+/*Accordian styles*/
+.accordion .accordion-navigation > a, .accordion .accordion-navigation > .content.active {
+	font-style: normal;
+}
+
+footer {
+	background-color: #f5f5f5;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+footer p {
+	font-size: 14px;
+}
