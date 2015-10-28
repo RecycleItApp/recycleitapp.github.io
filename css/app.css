@@ -31,16 +31,20 @@ label {
 }
 
 .welcome-section {
-	padding-top: 100px;
+	padding-top: 75px;
 	padding-bottom: 50px;
 	text-align: center;
 	background-color: #1C75B8;
 	color: #fff;
 }
 
-.welcome-section h1  {
+.welcome-section h1 {
 	color: #fff;
 	font-weight: bold;
+}
+
+.welcome-section h2 {
+	color: #fff;
 }
 
 .welcome-section h3, .welcome-section h4 {
